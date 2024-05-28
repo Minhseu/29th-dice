@@ -1,0 +1,117 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.btn {
+  margin-top: 30px;
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.btn:hover{
+    color: rgb(204, 195, 179);
+    transform: scale(1.2);
+    text-shadow: 0 0 10px rgb(185, 173, 149);
+}
+
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #40A578;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 2rem;
+  color: #ffffff;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+@media (min-width: 350px) and (max-width: 1200px){
+  body{
+    background-color: rgb(101, 182, 111);
+  }
+  img{
+    width: 110%;
+  }
+  
+  h1{
+    font-size: 4rem;
+    margin-bottom: 100px;
+  }
+  
+  footer{
+    text-align: center;
+  }
+  p{
+    font-size: 2rem;
+    margin-top: 0 ;
+  }
+  .dice{
+    display: inline-block;
+    margin: 5px 35px 5px 35px;
+  }
+  .btn{
+    margin-top: 50px;
+    width: 25%;
+    height: 80px;
+    border-radius: 9px;
+  }
+  .btn:hover{
+    color: rgb(204, 195, 179);
+    transform: scale(1.2);
+    text-shadow: 0 0 10px rgb(185, 173, 149);
+}
+  
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
